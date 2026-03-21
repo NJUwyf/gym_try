@@ -33,9 +33,13 @@ Feel free to browse around, and any feedback or suggestions are welcome!
 ## Repository Structure / 仓库结构
 
 ├── cartpole/ # CartPole 相关算法
+
 ├── cliffwalking/ # CliffWalking 相关算法
+
 ├── lunarlander/ # LunarLander 相关算法
+
 ├── ... # 更多环境
+
 └── README.md # 本文件
 
 ## Environment / 环境
@@ -53,9 +57,13 @@ Stanford cs234(reinforcement learning)
 ## Progress / 进度
 
 - [ ] Q-Learning (tabular)
+  
 - [ ] SARSA
+  
 - [ ] DQN
+  
 - [ ] Policy Gradient
+  
 - [ ] more and more
 
 ---
