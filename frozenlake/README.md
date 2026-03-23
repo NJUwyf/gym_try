@@ -35,7 +35,6 @@
 
 - **期望 SARSA（Expected SARSA）**：通过期望值更新降低方差，提高对随机性的鲁棒性。
 - **使用深度 Q 网络（DQN）**：利用神经网络近似 Q 值，更好地处理环境不确定性。
-- **调整探索策略**：如采用更长的探索时间或衰减式 ε‑greedy，以适应随机动态。
 
 新文件将对比不同算法在湿润环境下的表现，并尝试找到能够稳定达到高胜率的解决方案。
 
@@ -43,6 +42,5 @@ To address the stochasticity in the slippery environment, I plan to **create a s
 
 - **Expected SARSA**: Reducing variance via expectation updates, which is more robust to randomness.
 - **Deep Q‑Network (DQN)**: Using neural networks to approximate Q‑values, better handling environmental uncertainty.
-- **Adjusted exploration strategies**: Such as longer exploration phases or decaying ε‑greedy to accommodate stochastic dynamics.
 
 The new file will compare the performance of different algorithms in the slippery setting and aim to find a solution that consistently achieves a high win rate.
